@@ -39,7 +39,10 @@ If your AI architecture operates at the speed of conversation, your security fra
 ---
 
 ## Key Takeaways
+
 * **The Brilliant Catch vs. Precedent:** The agent brilliantly catches faulty logic (the intended optimization). However, as a systemic precedent in an enterprise environment, it highlights how **Your Agent Is Now My Agent**.
+
+* *[Visual illustration of simulated agentic dialog omitted for text dispatch]*
 * **Bypassing Traditional Gates:** Casual chat interactions can establish negotiated context hierarchies that circumvent code review, CI/CD, and standard compliance audits.
 
 #AIForHumans #AgenticAISecurity #PromptInjection #YourAgentIsNowMyAgent #SecurityForHumans
