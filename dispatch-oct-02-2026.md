@@ -38,22 +38,3 @@
 
 * **What’s Next:** In our upcoming issues, we are pulling back the curtain even further on the adversarial side of agentic deployments. 
 * **The Pipeline:** Expect deep-dives into advanced **prompt injections**, the dreaded **Denial of Wallet** attacks (because you need to ask: *what exactly is your agent out there buying or consuming on your dime?*), and much more tradecraft straight from the front lines.
-
----
-
-## Appendix: LinkedIn Companion Post
-
-Adversaries don't just lurk behind keyboards anymore—they buy a ticket, grab a conference badge, and stand right next to you at the networking buffet. 
-
-At a high-tech founder mixer a few weeks ago, I ran right into the classic "Curious Student" ploy. Someone sidles up eager to talk shop, drilling me with granular questions about advanced agentic architecture. When pressed on their background, the cover story instantly unraveled: *"Oh, I'm just a foreign student excited to learn tech details to tell my parents back home."* Exit stage left. 
-
-If a conversation feels like a one-sided extraction of your intellectual property with zero reciprocal value, deploy an immediate social circuit breaker and walk away. Your tradecraft is your perimeter. 
-
-In this dispatch of **Security For Humans**, we break down:
-1. **Physical Tradecraft:** Spotting intelligence surveyors in the wild.
-2. **Internal Digital Hygiene:** How an offhand comment drifted two weeks downstream to skew agent logic in a shared context window.
-3. **The Core Fix:** Enforcing hard state isolation between data ingestion and execution authority.
-
-Read the full dispatch over at [securityforhumans.com](https://securityforhumans.com). 
-
-#SecurityForHumans #AgenticAI #Cybersecurity #ArtificialIntelligence #TechTradecraft #AICompliance
