@@ -1,48 +1,34 @@
-# PAWS: Linguistic Fiduciary Alignment Framework
+# PAWS: Linguistic Fiduciary Framework
+*Core Architecture & Technical Specification*
 
-> *Beyond somatic telemetry: Securing agentic intent through linguistic baselines and fiduciary divergence monitoring.*
+## 1. Executive Summary & Thesis
+Current agentic AI safety architectures rely heavily on somatic telemetry, token velocity, and population-averaged statistical models. These methods treat prompts as rigid data packets and language through a purely denotational lens, failing to account for individual cognitive baselines and idiosyncratic intent. 
 
-## Overview
-
-Current agentic systems are built for pure velocity and syntactic compliance—optimizing token throughput to satisfy immediate prompts. However, they lack an invariant fiduciary core. When users experience cognitive fatigue, high friction, or sophisticated prompt injections, these agents act as uncritical accelerators of error.
-
-Most prevailing safety frameworks rely heavily on **somatic and biological telemetry** (e.g., ocular tracking, pulse sensors, keystroke cadence, and typing pressure). While these metrics detect physical stress or kinetic velocity, they are fundamentally blind to *semantic intent* and context drift.
-
-**PAWS** introduces a paradigm shift: treating **linguistic telemetry and semantic baselines** as the primary source of truth for agentic fiduciary loyalty.
+The **PAWS** framework establishes a deep-tech security standard anchored in **linguistic baseline modeling** and **semantic intent detection**. By moving from macro-averaged compliance to user-dependent cognitive profiling, PAWS ensures that autonomous agents act as true fiduciaries rather than uncritical accelerators of errors.
 
 ---
 
-## The Core Philosophy: Why Somatic Telemetry Fails
+## 2. The Failure of Population-Averaged Semantics
+Standard Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems operate on statistical aggregates derived from massive web corpora. This creates critical vulnerabilities in high-stakes environments:
 
-The tech industry frequently packages flashy biological sensors because they are quantifiable. However:
-1. **Blind to Semantic Drift:** A keyboard shaking or accelerated typing cadence tells you a user is physically active or stressed, but it cannot differentiate between high-flow strategic execution and a compromised intent vector.
-2. **Easily Spoofed / Misaligned:** Somatic signals capture physiological states, not reasoning structures. 
-3. **The Language-Thought Shadow:** Language is the direct shadow of human cognition. Micro-linguistic shifts, hesitation markers, syntactic density changes, and lexical fingerprinting provide the only authentic window into a user's true operating parameters.
-
----
-
-## Core Pillars of the PAWS Architecture
-
-### 1. Fiduciary of Context Determination
-An invariant anchor that maintains an objective, semantically protected baseline of the user's authentic operating parameters, constraints, and historical intent. It prevents active context poisoning.
-
-### 2. Loyalty Intent Determination (The Divergence Engine)
-Continuously measures the vector delta ($\Delta$) between the foundational intent anchor and the incoming prompt trajectory. 
-
-$$\Delta_{\text{intent}} = \mathcal{D}(\vec{I}_{\text{baseline}}, \vec{P}_{\text{current}})$$
-
-### 3. The Controlled Wait-State (PAWS)
-When the semantic delta or linguistic hesitation threshold ($\tau$) is breached:
-$$\Delta_{\text{intent}} > \tau$$
-The system does not execute blindly. It initiates a controlled wait-state—**pausing** to verify alignment rather than bleeding tokens into unaligned trajectories.
+* **Statistical Denotation vs. User Connotation:** Broad LLMs map words to population-wide averages. For example, terms like "operational security" or "risk" are statistically bound to espionage, perimeter firewalls, or compliance checklists. They fail to grasp user-dependent connotations—such as the operational reality that structural nourishment and physiological baseline maintenance are the ultimate bedrock of tactical readiness.
+* **The Context Drift Blind Spot:** When prompt injections or contextual degradation occur, population-averaged models evaluate text against a generic baseline rather than the specific user's syntactic and semantic fingerprint.
+* **Absence of Fiduciary Loyalty:** Without tracking micro-deviations in an individual's linguistic cadence, systems cannot distinguish between high-flow strategic execution and cognitive state compromise.
 
 ---
 
-## Architecture Components
+## 3. Core Architectural Components
 
-- **Linguistic State Profiler:** Analyzes syntax structure, vocabulary density, and hesitation markers to model the user's cognitive fingerprint.
-- **Vector Divergence Calculator:** Evaluates real-time semantic distance against historical baselines.
-- **Fiduciary Interceptor:** Triggers safety verification prompts upon detecting cognitive friction or intent deviation.
+### A. Fiduciary of Context Determination
+An invariant cryptographic and semantic anchor that protects operating parameters from context drift, token bleed, and unauthorized prompt overrides. It maintains the immutable boundaries of the agent's mandate.
 
-## License
-MIT License. Built for true human-agent partnership.
+### B. Loyalty Intent Determination
+Real-time semantic modeling that evaluates incoming and outgoing streams against a user-dependent baseline. Rather than measuring heart rate or keystroke cadence (somatic theater), it analyzes micro-deviations in syntax, hesitation markers, and connotational weighting.
+
+### C. The PAWS Protocol
+When intent drifts or an anomaly is detected against the user's established baseline, the system executes the core directive: **PAWS**. It halts uncritical execution, requests verification, and preserves fiduciary alignment.
+
+---
+
+## 4. Implementation & Open-Source Commitment
+Maintained under an MIT license in the `Security-For-Humans` repository, the PAWS framework provides open-source infrastructure for researchers and developers building sovereign, secure, and truly aligned agentic architectures.
